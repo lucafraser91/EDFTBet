@@ -727,6 +727,7 @@ class ViewMarket(tk.Frame):
                                                                       market_id=market_id,
                                                                       price=r.offers[1].price))
 
+
             except IndexError:
                 pass
             flash(self, self.runner_containers[n_runner].offer2, "blue", to_flash)
