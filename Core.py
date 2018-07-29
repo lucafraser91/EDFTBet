@@ -8,7 +8,7 @@ from time import sleep
 from GUI import *
 
 # This file is going to be shared with no problems
-
+# totaly no problems !!
 """ 
     BID   = Side +1
     OFFER = Side -1
