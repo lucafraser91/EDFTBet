@@ -2,6 +2,7 @@ from Core import *
 import tkinter as tk
 from tkinter import messagebox, ttk
 
+# This file can be worked on with Github
 
 class GUI_StartPage(tk.Frame):
     ''' this is a test GUI to start projects from'''

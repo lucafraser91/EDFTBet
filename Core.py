@@ -7,6 +7,7 @@ from getpass import getuser
 from time import sleep
 from GUI import *
 
+# This file is going to be shared with no problems
 
 """ 
     BID   = Side +1
@@ -30,6 +31,7 @@ class EDFTBet(Tk):
         self.trade_id_count = 1
 
         # Load on start up:
+        # self.fileloc = r"C:\Users\lucaf\Documents\GitHub\EDFTBet\\"
         self.fileloc = r"Q:\Luca\Test\EDFTBet" + '\\'
         self.filename = "EDFTBet.pckl"
 
